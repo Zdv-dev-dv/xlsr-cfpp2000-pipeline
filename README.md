@@ -11,7 +11,7 @@
 
 **Project title:** XLSR Pipeline — French ASR and Direct Speech Translation applied to the CFPP2000 Corpus  
 **Author:** Zoé de Vries ([zoede-vries](https://cv.hal.science/zoede-vries))  
-**Institution:** ENS Paris-Saclay / Université Paris-Cité — M2 Linguistique anglaise  
+**Institution:** ENS Paris-Saclay / Université Paris-Cité — M2 Etudes anglophones - Linguistique anglaise  
 **Date created:** 2025–2026  
 **Language(s):** French (audio input), English (translation output), Python (code)
 
@@ -23,9 +23,9 @@ This notebook implements a two-stage speech processing pipeline on a sample of s
 | A | `jonatasgrosman/wav2vec2-large-xlsr-53-french` | Automatic Speech Recognition (ASR) — French transcription |
 | B | `facebook/wav2vec2-xls-r-1b-21-to-en` | Direct Speech Translation (ST) — French audio → English text |
 
-The pipeline processes a set of 30-second audio segments extracted from a single speaker interview in the CFPP2000 corpus and outputs a CSV file containing each segment filename, its French transcription, and its English translation. It was developed as part of coursework in English linguistics examining the behaviour of end-to-end speech translation models on naturally occurring, non-scripted French speech.
+The pipeline processes a set of 30-second audio segments extracted from a single speaker interview in the CFPP2000 corpus and outputs a CSV file containing each segment filename, its French transcription, and its English translation. 
 
-**Hardware note:** Stage B (XLS-R 1B) requires a GPU with at least 14 GB VRAM. A free Colab T4 runtime is sufficient. The notebook is structured to load and release each model sequentially to stay within VRAM limits. CPU execution is possible but very slow.
+**Hardware note:** Stage B (XLS-R 1B) requires a GPU with at least 14 GB VRAM. A free Colab T4 runtime is sufficient. The notebook is structured to load and release each model sequentially to stay within VRAM limits.
 
 ---
 
