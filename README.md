@@ -77,7 +77,7 @@ xlsr-cfpp2000-pipeline/
 **Speaker used:** Anita Musso (F, 46, 11th arrondissement of Paris)  
 **Source file URL:** http://cfpp2000.univ-paris3.fr/data/public/11eme/Anita_MUSSO_F_46_11e/Anita_MUSSO_F_46_11e.wav  
 **Segmentation:** 50 non-overlapping segments extracted starting at t=0 — archived at https://doi.org/10.5281/zenodo.19479351  
-**Corpus licence:** CC BY-NC-SA 4.0 (see `data/README.md`)
+**Corpus licence:** CC BY-NC-SA 4.0
 
 **Reference data:** `data/reference_transcription_translation.csv`
 
