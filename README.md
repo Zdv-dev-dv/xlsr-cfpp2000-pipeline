@@ -73,8 +73,6 @@ xlsr-cfpp2000-pipeline/
 
 ## 4. Data-Specific Information
 
-See `data/README.md` for full provenance, structure, and licence information.
-
 **Source corpus:** CFPP2000 (*Corpus de Français Parlé Parisien des années 2000*)  
 **Speaker used:** Anita Musso (F, 46, 11th arrondissement of Paris)  
 **Source file URL:** http://cfpp2000.univ-paris3.fr/data/public/11eme/Anita_MUSSO_F_46_11e/Anita_MUSSO_F_46_11e.wav  
